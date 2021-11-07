@@ -1,0 +1,19 @@
+.multi-progress-bar {
+  background-color: #ccc;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 1.5rem;
+}
+
+.multi-progress-bar__bar {
+  flex-grow: 1;
+}
+
+.multi-progress-bar__bar--0 {
+  background-color: red;
+}
+
+.multi-progress-bar__bar--1 {
+  background-color: blue;
+}
